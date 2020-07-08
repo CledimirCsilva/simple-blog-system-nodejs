@@ -1,0 +1,13 @@
+{{#each categorias}}
+    <div class="card mt-4">
+        
+        <div class="card-body">
+            {{nome}} <br>
+            <a href="/categorias/{{slug}}">View posts </a>
+        </div>
+       
+        
+    </div>
+{{else}}
+    <h5>Nenhuma Categoria encontrada.</h5>
+{{/each}}
