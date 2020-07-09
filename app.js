@@ -61,5 +61,5 @@
 
 // Outros
 
-app.listen(process.env.PORT, () => { console.log('Servidor rodando...')} )
+app.listen(process.env.PORT || 8089, () => { console.log('Servidor rodando...')} )
 
